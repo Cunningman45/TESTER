@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 613959836}
   - component: {fileID: 613959835}
   - component: {fileID: 613959834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 685755881}
   - component: {fileID: 685755880}
   - component: {fileID: 685755879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 1066331466}
   - component: {fileID: 1066331465}
   - component: {fileID: 1066331464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -832,9 +832,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3199926574530622645, guid: 07c4a00fab7d0ab4dbee55ed977c52e6, type: 3}
+      propertyPath: m_GravityScale
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3219338762766810414, guid: 07c4a00fab7d0ab4dbee55ed977c52e6, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381426242966374894, guid: 07c4a00fab7d0ab4dbee55ed977c52e6, type: 3}
+      propertyPath: jumpForce
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381426242966374894, guid: 07c4a00fab7d0ab4dbee55ed977c52e6, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 8936726978185426200, guid: 07c4a00fab7d0ab4dbee55ed977c52e6, type: 3}
       propertyPath: m_LocalPosition.x
